@@ -14,13 +14,13 @@ export default class SearchBar extends Component{
     event.preventDefault();
 
     //we need to go and fetch weather data
-    
+
   }
   render(){
     return(
       <form  onSubmit={this.onFormSubmit} className='input-group'>
          <input
-           placeholder='Get a five-day froecast in your favorite cities'
+           placeholder='Get a five-day forecast in your favorite cities'
            className='form-control'
            value={this.state.term}
            onChange={this.onInputChange}
